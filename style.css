@@ -1,0 +1,249 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Montserrat, sans-serif;
+    background: white;
+    align-items: center;
+}
+
+:root {
+  /*   color variables */
+  --clr-primary: white;
+  --clr-primary-hover: #12942c;
+  --clr-primary-hover: #12942c;
+  --clr-gray100: #737879;
+  --clr-gray200: #838585;
+}
+
+.nav-list {
+  background: white;
+  margin-right: -15px;
+  margin-top: auto;
+  padding: 3rem 0;
+  font-size: 2rem; 
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  
+  .nav-item  {
+    list-style: none;
+    margin-right: 5rem;
+    transform: scale(2);
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 4rem;
+    transform: scale(2);
+  }
+  
+  .nav-item a:hover{
+    color:#1c5011;
+    transition: all 200ms ease-in;
+  }
+
+  .nav-item {
+    font-family: sans-serif;
+    color: black;
+    font-size: 1rem;
+    background: white
+  }
+
+
+.heroImg {
+height: 600px;
+color: black;
+}
+
+* { 
+  font-size: 1rem;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.hero {
+  max-width:100%;
+  height:auto;
+}
+
+.content a {
+  color: black;
+  position: absolute;
+  bottom: 300px;
+  left: 20%;
+  font-size:xx-large;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
+
+.content button {
+  margin: 0;
+  left: 19%;
+  position: absolute;
+  bottom: 200px;
+  transform: scale(1);
+  cursor: pointer;
+
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+
+.content button:disabled {
+  pointer-events: none;
+}
+
+.content button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.content button:active {
+  box-shadow: none;
+  transform: translateY(0);
+  
+}
+
+/* My Work Section */
+.flexContainer {
+  display: flex;
+  padding: 60px 60px 30px 30px;
+  
+}
+.flexContainer div {
+  width: 30%;
+  scale: 90%;
+
+}
+
+.uxskills {
+  margin-top: 200px;  
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+
+.myWork {
+  text-align: center;
+  background-color: white;
+  padding: 15px 5px;
+}
+
+.uxskills, .myWorkHeader, .humanCentered, .redesign, .nonProfit {
+  font-size: 30px;
+} 
+
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+  scale: 130%;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+
+
+.footer {
+    background: #ffffff;
+    display: flex;
+    }
+
+  .footer-item a:hover{
+    color:#1c5011;
+    transition: all 200ms ease-in;
+  }
+
+  .footer-item {
+    font-size: 10rem;  
+    height: fit-content;
+    list-style: none;
+    margin-right: 5rem;
+    scale: 120%;
+    margin-bottom: auto;
+    }
+
+    .footer-item a {
+      text-decoration: none;
+      color: black;
+    }
+  
+
+   
+  
+
+    
+    
+    @media only screen and (max-width: 600px) {
+
+      }
+    
+
+
+
